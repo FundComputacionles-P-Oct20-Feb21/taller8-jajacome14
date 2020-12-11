@@ -1,0 +1,25 @@
+1.  Inicio
+
+2.  ventas(5),i[0-n]
+3.  dias(5), x(20)[{a-z}, {BS}]
+4.  indice, i[0-n] <--0
+5.  dias[0] <-- "Lunes"
+6.  dias[1] <-- "Martes"
+7.  dias[2] <-- "Miercoles"
+8.  dias[3] <-- "Jueves"
+9.  dias[4] <-- "Viernes"
+
+10. Mientras indice < 5 entonces
+11.     Escribir "Ingrese los valores de las ventas realizadas el dia: " + dias[indice]
+12.	    Leer ventas[indice]
+13.	    indice <- indice + 1
+14. Fin Mientras
+
+15. indice <-- 0
+16. Mientras indice < 5 entonces
+
+17.     Escribir dias[indice] + " $" + ventas[indice]
+18.     indice <- indice + 1
+19. Fin Mientras
+
+20. Fin

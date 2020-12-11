@@ -8,13 +8,13 @@
 7.  notasEstudiante[2] <-- 10
 8.  Para(indice<--0, indice<3, 1) haga
 9.    Si notasEstudiante[i]>5 entonces
-10.     notasEstudianteCualitativo[i] <- "Buena"
+10.     notasEstudianteCualitativo[indice] <- "Buena"
 11.   Caso Contrario
-12.     notasEstudianteCualitativo[i] <- "Mala"
+12.     notasEstudianteCualitativo[indice] <- "Mala"
 13.   FinSi
 14. Fin_Para 
 15. Para(indice<--0, indice<3, 1) haga
-16.     Escribir notasEstudiante[i], "---" + notasEstudianteCualitativo[i] 
+16.     Escribir notasEstudiante[i], "---" + notasEstudianteCualitativo[indice] 
 17. Fin_Para 
 18. Fin
 
